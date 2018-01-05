@@ -1,0 +1,27 @@
+{
+  "name": "express-api-template",
+  "version": "1.0.1",
+  "private": true,
+  "author": "Brian Berzellini",
+  "scripts": {
+    "start": "npm run dev-server",
+    "dev-server": "nodemon server.js",
+    "build": "gulp build-prod && npm run forever",
+    "forever": "node node_modules/forever/bin/forever start server.js",
+    "stop": "node node_modules/forever/bin/forever stop server.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "nodemon": "^1.11.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.16.0",
+    "cors": "^2.8.1",
+    "forever": "^0.15.3",
+    "knex": "^0.14.2",
+    "lodash": "^4.17.4",
+    "mssql": "^4.1.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}

@@ -1,0 +1,13 @@
+node_modules
+.DS_Store
+npm-debug.log*
+launch.json
+tmp
+/*.woff2
+/*.woff
+/*.svg
+/*.ttf
+/*.eot
+/*.jpg
+/*.png
+/*.svg
