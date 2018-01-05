@@ -12,14 +12,13 @@ const getIndexContent = (req, res) => {
 	// .catch(function(err){
 	// 	console.error(err);
     // });
-
     // TEMPORARY RESPONSE
     res.json({
         index: {
             title: 'Express API Template',
             environment: req.app.get('env')
         }
-    })
+    });
 };
 
 module.exports = {

@@ -13,11 +13,12 @@ const RP = function(url, method, data) {
 
   return rp(requestObject);
 };
+
 // GET for /
 const index = (req, res) => {
-    return root.getIndexContent(req, res);
+  return root.getIndexContent(req, res)
 };
 
 module.exports = {
-    index,
+  index,
 }
